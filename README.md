@@ -20,31 +20,3 @@
 FastAPI 서버 실행
 1. main.py 실행
 2. Terminal에서 D:\phthonWorkSpace> uvicorn main:app --reload --port 8001 (위치확인)
-
-
-![AI project](https://github.com/user-attachments/assets/2a93ded9-4075-48dd-a8b0-2ed79e97df97)
-
-파이썬 필수 라이브러리 설치
-
-pip install fastapi uvicorn pydantic Pillow numpy requests
-
-pip install ultralytics opencv-python python-multipart
-
-
-fastapi(0.111.1) : 비동기 웹 프레임워크, 자동 OpenAPI 문서 생성
-
-uvicorn(0.30.1) : 고성능 비동기 서버, ASGI 표준 지원
-
-pydantic(2.7.1) : 데이터검증 및 직렬화, 타입 힌팅, 설정 관리
-
-Pillow(10.3.0) : 이미지 열기, 저장, 변환, 다양한 이미지 처리 작업
-
-numpy(1.24.4) : 수치계산, 배열 및 행렬 연산, 다양한 수학 함수
-
-requests(2.32.3) : 간단한 http 요청 및 응답 처리
-
-ultraltics(8.2.58) : YOLOv8 객체 탐지 모델
-
-opencv-python(4.10.0) : 이미지 및 비디오 처리, 컴퓨터 비전 기능
-
-python-multipart(0.0.9) : 멀티파트 폼 데이터 파싱을 위해 사용
