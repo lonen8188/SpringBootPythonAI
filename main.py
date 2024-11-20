@@ -10,7 +10,7 @@ import io                                            # 파일 입출력을 위�
 import base64                                        # 데이터를 Base64로 인코딩 디코딩 https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%EC%8A%A464
 from PIL import Image                                # Pillow 이미지 처리 라이브러리
 import numpy as np                                   # 배열 및 행렬 연산을 위한 라이브러리
-from ultralytics import YOLO                         # yolo8 모델 사용
+from ultralytics import YOLO                         # yolo8 모델 사용 울트라리틱스 https://docs.ultralytics.com/usage/python/#using-trainers
 import cv2                                           # 컴퓨터 비전 작업을 위한 라이브러리 https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%EB%B9%84%EC%A0%84
 
 app = FastAPI();                                     # 애플리케이션 인스턴스 생성
