@@ -25,6 +25,7 @@ FastAPI 서버 실행
 ![AI project](https://github.com/user-attachments/assets/2a93ded9-4075-48dd-a8b0-2ed79e97df97)
 
 파이썬 필수 라이브러리 설치
+
 pip install fastapi uvicorn pydantic Pillow numpy requests
 
 pip install ultralytics opencv-python python-multipart
