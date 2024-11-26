@@ -1,4 +1,12 @@
 # SpringBootPythonAI
+# 실시간 영상 스트리밍 서비스 
+![cctv](https://github.com/user-attachments/assets/c7575a67-b3c6-49a2-afec-1756ff476946)
+
+주제
+
+카메라로부터 실시간으로 전송된 데이터를 ai 서버에서 객체를 인식하고 대상 물체를 탐지한 후 그 결과를 웹서버에 전송하여 웹 또는 모바일 화면으로 보여줌
+
+파이썬 애플리케이션은 카메라에서 전송된 이미지를 MQTT 브로커를 통해 전송 -> 자바 웹 애플리케이션이 해당 이미지를 받아 웹 화면에 송출
 
 개발환경구축
 1. 파이썬 인터프리터 : http://www.python.org/ -> 3.12버전 설치(3.8이상필수)
@@ -20,3 +28,5 @@
 FastAPI 서버 실행
 1. main.py 실행
 2. Terminal에서 D:\phthonWorkSpace> uvicorn main:app --reload --port 8001 (위치확인)
+
+
